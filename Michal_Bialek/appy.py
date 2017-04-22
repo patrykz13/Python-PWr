@@ -1,1 +1,1 @@
-print("Hello Poland");
+print("Hello Poland")
