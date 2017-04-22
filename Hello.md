@@ -1,1 +1,0 @@
-# Arkadiusz Kotwica
