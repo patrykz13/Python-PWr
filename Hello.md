@@ -1,2 +1,0 @@
-# Mateusz Gawel
-## Second commit :)
