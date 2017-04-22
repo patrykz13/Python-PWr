@@ -1,3 +1,3 @@
 # Hello Poland
 
-![alt](http://i.imgur.com/6PCqk71.jpg)
+![alt](http://i.imgur.com/VkKL2Lo.png)
