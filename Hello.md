@@ -1,1 +1,0 @@
-# Łukasz Wójcik
