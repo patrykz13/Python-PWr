@@ -31,6 +31,7 @@ initial="right";
 print(position);
 
 
+
 your_name="Patrick";
 print("first letter:",your_name[0]);
 print("first letter:",your_name[1]);
@@ -65,3 +66,74 @@ print(str(number)[0]);
 euro_in_my_pocket=100;
 pln_in_my_pocket=4.3*euro_in_my_pocket;
 print(pln_in_my_pocket);
+
+my_first_list=[1,2,3,4,5];
+print(my_first_list);
+a_mixed_list=[1,2,"Ciao"];
+print (a_mixed_list);
+
+new_list=my_first_list+a_mixed_list;
+print(new_list);
+
+new_list=5*a_mixed_list;
+print(new_list);
+
+
+print(my_first_list[::-2]);
+
+countries=["Poland","Italy","USA","Germany"];
+counter=0;
+for n in range(4):
+    print(countries[n]);
+
+for country in countries:
+    print(country)
+
+country="Poland";
+for l in country:
+    print(l);
+
+for i,v in enumerate(country):
+    print(i,v);
+
+print(" ");
+for i,v in enumerate(country):
+    print(i,v);
+
+
+print(" ");
+for i in range(len(country)):
+    print(i,country[i]);
+
+initial = ["left"];
+position=initial;
+initial =["right"];
+print(position);
+
+initial = ["left"];
+position=initial;
+initial[0]= 'right';
+print(position);
+
+dic = {"Key":"value"};
+print(dic["Key"]);
+
+dic["ssss"]="KeyFromList";
+print(dic);
+
+
+help(dic);
+
+
+for k in dic:
+    print("Key", k, "value: ", dic[k]);
+
+print(dic.values());
+print(dic.keys());
+print(dic.items());
+print();
+for k, v in dic.items():
+    print("Key",k,"value:",v);
+
+
+a,b,c=("a","b","c");
