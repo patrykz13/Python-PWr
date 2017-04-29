@@ -1,0 +1,67 @@
+print("hello there!");
+
+print("My name is:");
+print("Patrick");
+putYourAgeHere = 22;
+print("I am",putYourAgeHere,"old");
+
+
+city="wroclaw";
+today = 29;
+print("Today is",today, "in",city);
+
+my_age=28;
+your_age=22;
+my_age+your_age;
+
+my_age="28"
+your_age="22";
+print(my_age+your_age)
+
+
+city="Wroclaw";
+country="Poland";
+europe="Europe";
+print(city,"is in",country);
+print(country,"is in",europe);
+
+initial="left";
+position=initial
+initial="right";
+print(position);
+
+
+your_name="Patrick";
+print("first letter:",your_name[0]);
+print("first letter:",your_name[1]);
+print("first letter:",your_name[2]);
+print("first letter:",your_name[3]);
+
+print(your_name[0:7])
+
+my_string = "yoland";
+print("P"+my_string[1:]);
+
+my_string="it5ly";
+my_string=my_string[0:2]+"a"+my_string[3:];
+print(my_string);
+
+string_1 = "I live in Italy";
+current_country="Poland";
+print(string_1[0:9]+" "+current_country);
+
+integer_1=1;
+integer_2="10";
+print(integer_1+int(integer_2));
+
+this_is_a_number=1.0
+print(type(this_is_a_number));
+
+number=500;
+print(str(number)[0]);
+
+
+
+euro_in_my_pocket=100;
+pln_in_my_pocket=4.3*euro_in_my_pocket;
+print(pln_in_my_pocket);
